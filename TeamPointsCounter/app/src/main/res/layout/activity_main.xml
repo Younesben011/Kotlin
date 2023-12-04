@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  tools:context=".TeamFragment">
+
+        <LinearLayout
+                  android:id="@+id/team_container1"
+                  android:orientation="vertical"
+                  android:layout_width="200dp"
+                  android:layout_height="wrap_content"
+                  tools:context=".TeamFragment">
+        <TextView
+                android:id="@+id/team_name1"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:text="Team 1"
+        />
+        <TextView
+                android:id="@+id/score1"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:textColor="@color/black"
+                android:text="0"
+        />
+
+        <Button
+                android:id="@+id/team1_points3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="+3POINTS"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/orange"
+        />
+        <Button
+                android:id="@+id/team1_points2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="+2POINTS"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/orange"
+        />
+        <Button
+                android:id="@+id/team1_points1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="FREE THROW"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/orange"
+        />
+
+    </LinearLayout> <LinearLayout
+                  android:id="@+id/team_container2"
+                  android:orientation="vertical"
+                  android:layout_width="200dp"
+                  android:layout_height="wrap_content"
+                  tools:context=".TeamFragment">
+        <TextView
+                android:id="@+id/team_name2"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_margin="20dp"
+                android:textStyle="bold"
+                android:text="Team 2"
+        />
+        <TextView
+                android:id="@+id/score2"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="70dp"
+                android:textColor="@color/black"
+                android:text="0"
+        />
+
+        <Button
+                android:id="@+id/team2_points3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="+3POINTS"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/orange"
+        />
+        <Button
+                android:id="@+id/team2_points2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="30dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="+2POINTS"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/orange"
+        />
+        <Button
+                android:id="@+id/team2_points1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="20dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:text="FREE THROW"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/orange"
+        />
+
+    </LinearLayout>
+    </LinearLayout>
+    <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:layout_margin="5dp"
+            android:text="RESET"
+            android:layout_gravity="center"
+            android:translationY="220dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/orange"
+    />
+</LinearLayout>
